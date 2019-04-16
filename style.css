@@ -1,0 +1,73 @@
+.alert {
+    padding: 20px;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: calc(35%);
+    width: 30%;
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid black;
+    margin: 10px 10px 10px 0px;
+    background-color: white;
+}
+
+.right {
+    float: right;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+}
+
+.title {
+    font-family: Gothic L, sans-serif;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: Gothic L, sans-serif;
+}
+
+.subTitle {
+    font-family: Gothic L, sans-serif;
+    -webkit-text-fill-color: white;
+    margin-bottom: 0px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+html {
+    /* To make use of full height of page*/
+    min-height: 100%;
+    background-image: linear-gradient(to bottom right, lightblue, steelblue);
+}
+body {
+    min-height: 100%;
+    background-image: linear-gradient(to bottom right, lightblue, steelblue);
+}
+
+h5 {
+    margin-top: 5px;
+    font-family: Helvetica, sans-serif
+}
+
+#clear {
+    position: absolute;
+    top: 16%;
+    left: calc(90%);
+}
+
+#change_color {
+    position: absolute;
+    top: 16%;
+    left: calc(93%);
+}
+
+#retrieve_saved {
+    float: right;
+    margin-right: 5px;
+}

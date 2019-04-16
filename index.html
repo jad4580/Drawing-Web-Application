@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Let's Draw!</title>
+    <link rel="stylesheet" type="text/css" href="recorder.css">
+</head>
+<body>
+<h1 class="title">Let's Draw!</h1>
+<h5>Draw something interesting.</h5>
+<div class="alert"></div>
+<input id="start" type="button"  value="Start Recording" title="Use this button to start recording.">
+<input id="stop" type="button" value="Stop Recording">
+<input id="save" type="button" value="Save Recording">
+
+<input class="right" id="change_color" type="button" value="Change Color">
+<input class="right" id="clear" type="button" value="Clear">
+
+<br>
+
+<canvas id="canvas"></canvas>
+<input id="play" type="button" value="Play Recording">
+<input id="retrieve_saved" type="button" value="Retrieve Saved Recording">
+<br>
+<br>
+<hr style="color: black;">
+<h2 class="subTitle">Need help? We'll give you a push. Here's some information on what the buttons do.</h2>
+<p>Start Recording - Starts the recording.</p>
+<p>Stop Recording - Stops the recording.</p>
+<p>Save Recording - Saves the recording.</p>
+<p>Play Recording - Plays your recording!</p>
+<p>Clear - Clears the drawing board and any unsaved recordings made.</p>
+<p>Change Color - Changes your drawing color, based on hue.</p>
+<p>Retrieve Saved Recording - Retrieves your saved recording. Click "Play Recording" to watch your drawing come to life!</p>
+
+<script type="text/javascript" src="recorder.js"></script>
+</body>
+</html>
